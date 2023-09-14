@@ -1,0 +1,46 @@
+/* CSS設定 */
+#wrap {
+    /* 內容置中 */
+    text-align: center;
+    /* 上方留白 */
+    margin-top: 50px;
+}
+
+/* 共同設定 */
+header,
+nav,
+section,
+footer {
+    /* border: 2px solid rgb(0, 0, 0); (框線)*/
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(255, 60, 0);
+    font-weight :boed;
+}
+
+/* 選單區 */
+nav{
+    background-color: rgb(21, 56, 5);
+}
+nav a {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+    border-right: 1.5px solid rgb(249, 253, 17);
+    padding-right: 20px;
+    font-weight: bold;
+}
+/* 內容區 */
+section{
+    margin-top: 50px;
+}
+section iframe{
+    width: 960px;
+    height: 600px;
+}
